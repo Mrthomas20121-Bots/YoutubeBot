@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "By Mrthomas20121",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot_dev.js",
+    "start": "node bot.js"
+  },
+  "author": "Mrthomas20121",
+  "license": "ISC",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "npm": "^6.4.1",
+    "request": "^2.88.0",
+    "sqlstring": "^2.3.1",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "feed-read-parser": "^1.0.5",
+    "mysql": "^2.15.0"
+  }
+}
